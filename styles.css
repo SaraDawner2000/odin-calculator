@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+
+}
+#calculator-area{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#intro{
+    height:30%;
+}
+#calculator-head{
+    width:100%;
+    height:150px;
+    border: 1px black solid;
+}
+#calculator{
+    width:400px;
+    height: 600px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#calculator-body{
+    height:450px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.btn.deletion {
+    width: 50%;
+}
+.btn {
+    width:24%;
+}
